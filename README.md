@@ -19,7 +19,7 @@ target := ring.Find("your-key")
 ```
   
 **Add a New Node**  
-```
+```go
 node := conhash.Node{Host: "localhost", Port: 8003}
 err := ring.Add(node)
 if err != nil { 
